@@ -1,0 +1,30 @@
+{
+  "name": "bitcoinity",
+  "version": "0.1.0",
+  "description": "Basic node.js interface to and parser for data from data.bitcoinity.org",
+  "main": "lib/bitcoinity.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "request": "~2.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gseshadri/bitcoinity.git"
+  },
+  "keywords": [
+    "bitcoinity",
+    "bitcoin"
+  ],
+  "author": "gseshadri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gseshadri/bitcoinity/issues"
+  },
+  "homepage": "https://github.com/gseshadri/bitcoinity"
+}
